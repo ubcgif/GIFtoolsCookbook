@@ -31,7 +31,7 @@ The number of values for Ws is the same as the number of model cells (nx*ny*nz),
 
 The default value for cell-based weights and face weights is 1.
 
-.. tip:: A cell-based weight that is less than 1 will ????????? while a cell-based weight greater than 1 will ?????????????. 
+.. tip:: A cell-based weight that is less than 1 will force the model towards the reference model while a cell-based weight greater than 1 will allow deviations from the reference model. 
 
 .. tip:: A face weight that is less than 1 will create a **sharp** boundary between those cells. A face weight that is greater than 1 will avoid sharp boundaries between those cells. The larger the deviation from 1, the more pronounced the differences will be. For example, a face weight of 0.0001 will produce a sharper boundary than a face weight of 0.1.
 
