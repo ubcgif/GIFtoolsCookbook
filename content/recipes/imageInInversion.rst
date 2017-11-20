@@ -7,7 +7,7 @@ Create a geologic model from a plan-view image
 
 GIFtools can import a geologic image and convert it to a geology model. This allows one to create upper and lower bound models, build weights, and create physical property models based on the geology. This is particularly useful for inversion of multiple data types in the same area. Below are the steps create a geology model from a plan-view image.
 
-In GIFtools, :ref:`Import a geologic image <importImage>`. The image should have solid colours indicating geologic zones (see below for example). The algorithms developed in GIFtools will struggle if annotations are included in the image.
+In GIFtools, :ref:`Import a geologic image <importGeoImage>`. The image should have solid colours indicating geologic zones (see below for example). The algorithms developed in GIFtools will struggle if annotations are included in the image.
 
 .. figure:: ../../images/ImageToGeoMod/geology2.png
     :align: center
@@ -25,7 +25,7 @@ We can visualize the mesh, and then load in the topography and image over top:
     :align: center
     :figwidth: 75%
 
-Next, we need to define a legend for the image. If the legend file was not imported with the mesh, either :ref:`import or create <legendFile>` the image legend through the image menu. This file gives the ID and its corresponding colour code (RGB). In this example, we have to :ref:`create the legend <legendFile>`. The table then looks like:
+Next, we need to define a legend for the image. If the legend file was not imported with the mesh, either :ref:`import or create <importLegendFile>` the image legend through the image menu. This file gives the ID and its corresponding colour code (RGB). In this example, we have to :ref:`create the legend <importLegendFile>`. The table then looks like:
 
 .. figure:: ../../images/ImageToGeoMod/table.png
     :align: center

@@ -1,79 +1,13 @@
 .. _quickStartGuide:
 
-.. figure:: ../images/GIFtoolsLogo.png
-   :align: center
-   :scale: 75%
-
 GIFtools quick-start guide
 ==========================
 
-In the next section, you will find:
-- :ref:`GIFtools Framework <framework>`
+In this section, you will find:
+
 - :ref:`Installation guide <install>`
 - :ref:`Navigating GIFtools <lookAndFeel>`
 - :ref:`Tutorial guide  <tutorials>`
-
-Why GIFtools ?
---------------
-
-.. figure:: ../images/GTnoFramework.png
-   :align: right
-   :scale: 30%
-
-The UBC-Geophysical Inversion Facility (GIF) has developed a large number of
-high-performance forward modeling and inversion codes over the last decades.
-While proving to be useful in characterizing the sub-surface, the
-usability of these codes remained challenging due to the number of complex
-tasks needed from the user:
-
-(1) Gather and format a wide range of geoscientific data
-
-(2) Interact with various Fortran codes and utilities
-
-(3) Manage and archive projects
-
-
-.. _framework:
-
-**GIFtools Framework**
-
-.. figure:: ../images/GTFramework.png
-   :align: right
-   :scale: 30%
-
-GIFtools has been designed to facilitate the interaction between the practicing
-geophysists and the various forward and inversion codes. The front-end of
-GIFtools is its Graphical User Interface (GUI) menu structure. A *GIFproject*
-is used to store, visualize and modify the different *objects* needed to
-interact with the various Fortran executable.
-
-.. figure:: ../images/Object.png
-   :align: right
-   :scale: 50%
-
-In computer language, an *object* is a container holding a set of attributes
-and functions that can be used to perform tasks. You can think of it as a
-self-contained machine. For example, a *GIFdata* object knows about the
-geophysical experiment (location, transmitter, units, etc.), and can
-perform action (write to file, plot)
-
-.. figure:: ../images/ObjectLink.png
-   :align: right
-   :scale: 50%
-
-The *objects* can be linked to each other, like building blocks, to achieve
-more complex tasks. For example, a model needs mesh in order to exist in a 3D
-space and be exported.
-
-
-More complex objects, an inversion for example, need to know about many other
-objects in order to be complete (data, mesh and model). Once all the pieces
-are connected, the inversion object can interact with external Fortran codes
-and knows how to handle the various outputs.
-
-.. figure:: ../images/GIFproject.png
-   :align: center
-   :scale: 50%
 
 
 .. _install:
@@ -159,8 +93,8 @@ Click **Apply** and then **OK**. GIFtools is now installed and can be started fr
 Installation notes
 ^^^^^^^^^^^^^^^^^^
 
-- *Why did we have to do step 7?* Windows makes a copy in the registry and starts GIFtools there. The visualization package (VTK) that is used requires static Java libraries and therefore GIFtools needs to be started where those dynamic libraries are located.
-
+- *Why did we have to do step 7?* Windows makes a copy in the registry and starts GIFtools there. The visualization package (VTK) that is used requires static Java libraries and therefore GIFtools needs to be started where those dynamic libraries are located. 
+ 
 - *Manual shortcuts to desktop do not require step 7!* If you have gone into GIFtools ``application`` directory, right-clicked and chose ``Create shortcut``, then the the shortcut (by default it will ask you if you want to put it on the desktop) will already have the *Start in:* field adjusted.
 
 
@@ -194,7 +128,7 @@ GIFtools is **menu** driven. To perform any action, the user can select from the
 
 #. **Edit**: This menu will let you rename, copy, or delete the object that is currently selected.
 
-#. **Import**: This is the main menu structure for importing items (data, meshes, etc) into GIFtools (see :ref:`Importation <import_index>` for a list of items to import).
+#. **Import**: This is the main menu structure for importing items (data, meshes, etc) into GIFtools (see :ref:`Importing Files <import>` for a list of items to import).
 
 #. **Create**: This menu allows the user to create items such as Folders (to keep the tree organized; see below), Workflows, Inversions, and other items that may call Fortran executables created by UBC-GIF
 
@@ -210,7 +144,7 @@ All of the items in GIFtools fall under a **GIFproject**. Beyond that, each is p
 Information panel
 ^^^^^^^^^^^^^^^^^
 
-Every item selected has a panel that shows up on the right-side of the main GIFtools window. This panel gives the user a brief over-view of the item, such as the number of cells for a mesh, or the number of frequencies in an FEMdata (Frequency-ElectroMagnetics Data) item. For data items, certain columns must be denoted in order to export them for inversion. These are known as :ref:`input/output headers <setioHeaders>` (often referred to as ``i/o headers``).
+Every item selected has a panel that shows up on the right-side of the main GIFtools window. This panel gives the user a brief over-view of the item, such as the number of cells for a mesh, or the number of frequencies in an FEMdata (Frequency-ElectroMagnetics Data) item. For data items, certain columns must be denoted in order to export them for inversion. These are known as :ref:`input/output headers <objectSetioHeaders>` (often referred to as ``i/o headers``). 
 
 Notes section
 ^^^^^^^^^^^^^

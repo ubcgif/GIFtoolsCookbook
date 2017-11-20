@@ -27,7 +27,7 @@ Step 1
 
 Start GIFtools or open an already existing project. Because we will be loading in a few files, it is easiest to :ref:`set the working directory <utilSetWorkDir>` to the folder where the files are located and/or where you would like to generate the octree mesh. 
 
-The first step is then to import the magnetic airborne survey locations and the topography file. :ref:`Importation of data <data>` will slightly differ, depending on the file type (GIF format, Geosoft XYZ, etc). For this example, the magnetic survey file is structured as a Geosoft XYZs while the topography file is in GIF format. Both are imported using the following menus:
+The first step is then to import the magnetic airborne survey locations and the topography file. :ref:`Importation of data <importData>` will slightly differ, depending on the file type (GIF format, Geosoft XYZ, etc). For this example, the magnetic survey file is structured as a Geosoft XYZs while the topography file is in GIF format. Both are imported using the following menus:
 
 - For magnetic survey locations: **Import** |rarr| **Data** |rarr| **Magnetics** |rarr| Geosoft XYZ
 - For topography: **Import** |rarr| **Data** |rarr| **Topography** |rarr| 3D GIF (3D XYZ)
@@ -36,7 +36,7 @@ The first step is then to import the magnetic airborne survey locations and the 
         :figwidth: 75%
         :align: center
 
-For the magnetic data, we also need to :ref:`set the inclination, declination, and field strength <editFieldParam>`. This can be done through the data manipulation menu. 
+For the magnetic data, we also need to :ref:`set the inclination, declination, and field strength <objectEditFieldParam>`. This can be done through the data manipulation menu. 
 
 Once the data are loaded, GIFtools will have the two items shown in the project tree on the left:
 

@@ -4,7 +4,7 @@ Recipes
 =======
 
 .. toctree::
-   :maxdepth: 1
+    :maxdepth: 1
 
     Create a geologic model from an image <imageInInversion>
     Use a surface (or surfaces) in an inversion <surfaceInInversion>

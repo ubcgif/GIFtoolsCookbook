@@ -5,7 +5,7 @@
 Forward model magnetic amplitude data in GIFtools
 =================================================
 
-In this recipe, we step through forward modelling magnetic amplitude data, starting from a TMI data file, a topography file, and a 3D mesh. At the bottom of this page, you will find the :ref:`files used in this recipe as well as the complete project and output files <AmpExample>`.
+In this recipe, we step through forward modeling magnetic amplitude data, starting from a TMI data file, a topography file, and a 3D mesh. At the bottom of this page, you will find the :ref:`files used in this recipe as well as the complete project and output files <AmpExample>`.
 
 This recipe requires the following steps:
 
@@ -17,9 +17,9 @@ This recipe requires the following steps:
 
 **STEP 1: Import the necessary files**
 
-Start GIFtools or open an already existing project. Because we will be loading in a few files, it is easiest to :ref:`set the working directory <utilSetWorkDir>` to the folder where the files are located and/or where you would like to do the forward model. 
+Start GIFtools or open an already existing project. Because we will be loading in a few files, it is easiest to :ref:`set the working directory <projSetWorkDir>` to the folder where the files are located and/or where you would like to do the forward model. 
 
-The first step is then to import the magnetic data, the topography file, and the 3D mesh. :ref:`Importation of data <data>` can slightly differ, depending on the file type (GIF format, Geosoft XYZ, etc). For this example, the magnetic data and the topography file are both in GIF format. Both are imported using the following menus:
+The first step is then to import the magnetic data, the topography file, and the 3D mesh. :ref:`Importation of data <importData>` can slightly differ, depending on the file type (GIF format, Geosoft XYZ, etc). For this example, the magnetic data and the topography file are both in GIF format. Both are imported using the following menus:
 
 - For magnetic survey locations: **Import** |rarr| **Data** |rarr| **Magnetics** |rarr| GIF format
 - For topography: **Import** |rarr| **Data** |rarr| **Topography** |rarr| 3D GIF (3D XYZ)
@@ -33,9 +33,9 @@ The first step is then to import the magnetic data, the topography file, and the
 
 Once the data are loaded, GIFtools will have the three items shown in the project tree on the left. It's a good idea to regularly :ref:`save <projSave>` your project!
 
-.. note:: If you have a susceptibility model, you can :ref:`import the model <importModel>` and skip directly to :ref:`forward modelling the amplitude data <ampStep3>`.
+.. note:: If you have a susceptibility model, you can :ref:`import the model <importModel>` and skip directly to :ref:`forward modeling the amplitude data <ampStep3>`.
 
-Before we can solve for an equivalent source model for this magnetic data, we need to :ref:`set the I/O for the data and uncertainties <setioHeaders>`. This means we need to :ref:`assign uncertainties to the data first <assignUncert>`.
+Before we can solve for an equivalent source model for this magnetic data, we need to :ref:`set the I/O for the data and uncertainties <objectSetioHeaders>`. This means we need to **assign uncertainties (link needed)**.
 
 Use the menu structure to set the uncertainty for the magnetic data:
 
@@ -102,7 +102,7 @@ If you view the model (use the visualization menu for the recovered GIFmodel), y
 
 **STEP 3: Forward model amplitude data**
 
-The final step is to forward model amplitude data from the equivalent source model. Using the menus, create a forward modelling item:
+The final step is to forward model amplitude data from the equivalent source model. Using the menus, create a forward modeling item:
 
 **Create** |rarr| **Forward modelling** |rarr| **Magnetics** |rarr| **MAG3D (v6.0)**
 
@@ -140,7 +140,7 @@ Select the forward modelling item. Use the menus to edit its options:
 
 **Magnetics forward modelling** |rarr| **Edit options**
 
-The dialog is the exact same as in the :ref:`forward modelling recipe <fwdModData>`. Select the equivalent source model, the amplitude data item, and the topography. Then click "Apply".     
+The dialog is the exact same as in the :ref:`forward modeling recipe <fwdModData>`. Select the equivalent source model, the amplitude data item, and the topography. Then click "Apply".     
 
 Use the menu to write the files:
 

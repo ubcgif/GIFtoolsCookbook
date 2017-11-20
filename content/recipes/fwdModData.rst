@@ -20,9 +20,9 @@ This recipe requires the following steps:
 
 **STEP 1: import a survey, a mesh, and a model**
 
-Start GIFtools or open an already existing project. Because we will be loading in a few files, it is easiest to :ref:`set the working directory <utilSetWorkDir>` to the folder where the files are located and/or where you would like to do the forward model. 
+Start GIFtools or open an already existing project. Because we will be loading in a few files, it is easiest to :ref:`set the working directory <projSetWorkDir>` to the folder where the files are located and/or where you would like to do the forward model. 
 
-The first step is then to import the magnetic airborne survey locations and the topography file. :ref:`Importation of data <data>` will slightly differ, depending on the file type (GIF format, Geosoft XYZ, etc). For this example, the magnetic survey file is structured as a Geosoft XYZ while the topography file is in GIF format. Both are imported using the following menus:
+The first step is then to import the magnetic airborne survey locations and the topography file. :ref:`Importation of data <importData>` will slightly differ, depending on the file type (GIF format, Geosoft XYZ, etc). For this example, the magnetic survey file is structured as a Geosoft XYZ while the topography file is in GIF format. Both are imported using the following menus:
 
 - For magnetic survey locations: **Import** |rarr| **Data** |rarr| **Magnetics** |rarr| Geosoft XYZ
 - For topography: **Import** |rarr| **Data** |rarr| **Topography** |rarr| 3D GIF (3D XYZ)
@@ -31,7 +31,7 @@ The first step is then to import the magnetic airborne survey locations and the 
         :figwidth: 75%
         :align: center
 
-For the magnetic data, we also need to :ref:`set the inclination, declination, and field strength <assignUncert>`. This can be done through the data manipulation menu. 
+For the magnetic data, we also need to :ref:`set the inclination, declination, and field strength <objectEditFieldParam>`. This can be done through the data manipulation menu. 
 
 Once the data are loaded, GIFtools will have the two items shown in the project tree on the left:
 
@@ -56,7 +56,7 @@ We now have 4 items in the GIFtools project tree:
 
 **STEP 2: Create a forward model item in GIFtools**
 
-With all files loaded, we are ready to :ref:`create the forward modelling item <fwd>`. These can be accessed through the menu structure:
+With all files loaded, we are ready to :ref:`create the forward modelling item <createForward>`. These can be accessed through the menu structure:
 
 **Create** |rarr| **Forward modelling**
 

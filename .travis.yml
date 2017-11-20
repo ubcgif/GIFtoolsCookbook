@@ -15,4 +15,4 @@ script: nosetests tests
 
 notifications:
   email:
-    - sdevries@eos.ubc.ca
+    - devinccowan@gmail.com

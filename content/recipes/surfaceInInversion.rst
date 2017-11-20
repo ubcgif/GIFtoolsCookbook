@@ -7,7 +7,7 @@ Use a surface (or surfaces) in an inversion
 
 In GIFtools, surfaces are imported and used to create or edit a geology model. This allows one to set bounds, weights, and a physical property based on the geology ID. This is particularly useful for inversion of multiple data types in the same area. Below are the steps to put information from a surface (or surfaces) in an inversion.
 
-**NOTE:** In future releases of GIFtools, this functionality will be streamlined in a :ref:`inversion workflow <createInversionWorkflow>`. For now, the surface(s) and :ref:`modelBuilder module <createModelBuilder>` are required. Below are details of the step required to create reference models, bounds, etc from a surface.
+**NOTE:** In future releases of GIFtools, this functionality will be streamlined in a :ref:`inversion workflow <createWorkflowInversion>`. For now, the surface(s) and :ref:`modelBuilder module <createModelBuilder>` are required. Below are details of the step required to create reference models, bounds, etc from a surface.
 
 1. :ref:`Import a surface <importSurface>` or surfaces (import each surface individually). Below is a surface and mesh used in this example.
 

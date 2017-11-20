@@ -12,13 +12,13 @@ Welcome to the GIFtools cookbook! Below you will find the quick-start guide to h
     :maxdepth: 1
 
     Quick-start guide <content/quickStartGuide>
-    content/import/import_index
-    content/generalFunctionality/generalFunctionality_index
+    content/basicFunctionality/basicFunctionality_index
+    content/objectFunctionality/objectFunctionality_index
     content/recipes/recipe_index
+    content/AtoZ/AtoZ_index
     content/fileFormats/format_index
     System requirements <content/systemReq>
     content/videoTutorials
-    content/activities/activities_index
     Site map <sitemap>
 
 
