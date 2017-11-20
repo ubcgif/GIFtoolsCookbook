@@ -29,3 +29,4 @@ Welcome to the GIFtools cookbook! Below you will find the quick-start guide to h
 .. example:: Look for this type of box throughout the cookbook to find examples to download. It is recommended to use the latest version of GIFtools.
 
 
+
