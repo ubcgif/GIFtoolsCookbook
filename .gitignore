@@ -1,0 +1,5 @@
+_build/
+*.rst~
+_ext/__pycache__/
+*.docx
+*.pyc
