@@ -27,8 +27,8 @@ This section of the GIFtools cookbook is meant to provide practical tutorials fo
     ZTEM: From XYZ data to inversion <ztem/index>
     MobileMT: From XYZ data to inversion <mmt/index>
     Joint MT-ZTEM inversion <joint_mt_ztem/index>
-    Surface UTEM: From AMIRA TEM data file to inversion (ongoing research) <utem/index>
-    Borehole UTEM: From AMIRA TEM data file to inversion (ongoing research) <utem_borehole/index>
+    Surface UTEM: From AMIRA TEM data file to inversion <utem/index>
+    Borehole UTEM: From AMIRA TEM data file to inversion (incomplete) <utem_borehole/index>
 
 
 
