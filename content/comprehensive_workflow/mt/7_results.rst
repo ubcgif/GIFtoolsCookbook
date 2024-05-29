@@ -34,7 +34,7 @@ The Tikhonov curve for our tutorial inversion is shown below. According to the f
 	- Globally, we have likely under-estimated the uncertainties on our data. Or, most likely, we should have removed any erroneous data values.
 
 
-.. figure:: images/convergence.png
+.. figure:: images/convergence.PNG
     :align: center
     :width: 500
 
