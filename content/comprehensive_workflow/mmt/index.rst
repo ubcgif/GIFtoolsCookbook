@@ -10,7 +10,7 @@ Comprehensive Workflows: MobileMT
 
 Here, we present a general workflow for loading, interpreting and inverting `Expert Geophysics <https://www.expertgeophysics.com/wp-content/uploads/2020/01/EGL-MobileMT_19-08.pdf>`__ MobileMT data. We begin with CSV formatted data and local topography. Our goal is to invert the data to recover a 3D conductivity model. You may work with the tutorial dataset provided or your own data:
 
-    - `Download the tutorial data <https://github.com/ubcgif/GIFtoolsCookbook/raw/master/assets/comprehensive_tutorial_mmt.zip>`_
+    - `Download the tutorial data <https://github.com/ubcgif/GIFtoolsCookbook/raw/main/assets/comprehensive_tutorial_mmt.zip>`_
 
 
 The data used for this tutorial were collected at a test site near Cochrane, Ontario, Canada. We greatly appreciate Rio Tinto for providing data used to create this comprehensive workflow.
