@@ -24,7 +24,7 @@ Starting Your Project
 Import Files
 ------------
 
-.. note:: If you do not have Geosoft XYZ formatted data from which to work with, you may `download tutorial data <https://github.com/ubcgif/GIFtoolsCookbook/raw/main/assets/comprehensive_tutorial_ztem.zip>`_ . It is from this dataset that we will demonstrate the workflow.
+.. note:: If you do not have Geosoft XYZ formatted data from which to work with, you may `download tutorial data <https://github.com/ubcgif/GIFtoolsCookbook/raw/master/assets/comprehensive_tutorial_ztem.zip>`_ . It is from this dataset that we will demonstrate the workflow.
 
 Here, we import the ZTEM data and topography.
 

@@ -10,7 +10,7 @@ Comprehensive Workflows: Magnetotellurics
 
 Here, we present a general workflow for loading, interpreting and inverting magnetotelluric (MT) data. We begin with MT data in EMAP standard EDI file format. Our goal is to invert the data to recover a 3D conductivity model. You may work with the tutorial dataset provided or your own data:
 
-    - `Download the tutorial data <https://github.com/ubcgif/GIFtoolsCookbook/raw/main/assets/comprehensive_tutorial_mt.zip>`_
+    - `Download the tutorial data <https://github.com/ubcgif/GIFtoolsCookbook/raw/master/assets/comprehensive_tutorial_mt.zip>`_
 
 
 These data were acquired from a `Geoscience Australia public database <https://data.gov.au/dataset/ds-ga-b20cdc13-039f-4217-b154-9d6e01208054/details?q=>`__ . We would like to acknowledge Geoscience Australia and Geological Survey of Queensland for allowing us to use this dataset to complete the tutorial. To reduce computation time and memory requirements, we have chosen to start with a subset of the original dataset.

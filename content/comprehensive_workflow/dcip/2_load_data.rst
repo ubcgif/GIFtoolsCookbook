@@ -22,7 +22,7 @@ Starting Your Project
 Import Files
 ------------
 
-.. If you do not have UBC-GIF formatted data from which to work with, you may `download tutorial data <https://github.com/ubcgif/GIFtoolsCookbook/raw/main/assets/comprehensive_tutorial_dcip.zip>`_ . It is from this dataset that we will demonstrate the workflow.
+.. If you do not have UBC-GIF formatted data from which to work with, you may `download tutorial data <https://github.com/ubcgif/GIFtoolsCookbook/raw/master/assets/comprehensive_tutorial_dcip.zip>`_ . It is from this dataset that we will demonstrate the workflow.
 
 Here, we import the DC, IP and topography data. **The tutorial data are in 3D UBC-GIF format**. If you have data of the same format:
 
