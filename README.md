@@ -1,6 +1,6 @@
 # GIFtoolsCookbook
 
-![alt text](https://github.com/ubcgif/GIFtoolsCookbook/blob/master/images/Cookbook_Landing.png)
+![alt text](images/Cookbook_Landing.png)
 
 **First of all, Welcome!** 
 
